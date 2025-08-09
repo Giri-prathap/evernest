@@ -18,7 +18,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="howitworks-section">
+    <section className="howitworks-section" >
       <div className="howitworks-content">
         <div className="howitworks-left">
           <h2>

@@ -7,7 +7,7 @@ const LastSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/src/assets/earth-bg.png')` // Replace with your earth background image path
+          backgroundImage: `url('/earth-bg.png')` // Replace with your earth background image path
         }}
       >
         {/* Dark gradient overlay for better text readability */}
@@ -38,11 +38,11 @@ const LastSection = () => {
         </div>
 
         {/* Get Started Button */}
-        <div className="mb-8">
+        {/* <div className="mb-8">
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-medium px-8 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg text-base md:text-lg">
             Get Started
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Subtle stars/particles effect overlay */}

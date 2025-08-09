@@ -19,6 +19,7 @@ const EvernestHero = () => {
       <nav className="relative z-10 flex items-center justify-between px-6 py-6 lg:px-12">
         <div className="flex items-center">
           <div className="text-orange-500 text-2xl font-bold">Evernest</div>
+          
         </div>
         
         {/* Desktop Menu */}
@@ -30,14 +31,14 @@ const EvernestHero = () => {
             </svg>
           </div>
           <div className="flex items-center space-x-1 text-white cursor-pointer hover:text-orange-500 transition-colors">
-            <span>Solutions</span>
+            <span>How it works</span>
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
             </svg>
           </div>
-          <a href="#" className="text-white cursor-pointer hover:text-orange-500 transition-colors">Pricing</a>
+          {/* <a href="#" className="text-white cursor-pointer hover:text-orange-500 transition-colors">Pricing</a> */}
           <button className="px-4 py-2 border border-white text-white rounded hover:bg-white hover:text-slate-900 transition-colors">
-            Sign up
+            Contact
           </button>
         </div>
 

@@ -7,7 +7,7 @@ const ImpactSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('../src/assets/background.png')` // Replace with your background image path
+          backgroundImage: `url('/background.png')` // Replace with your background image path
         }}
       >
         {/* Dark overlay for better text readability */}
@@ -75,7 +75,7 @@ const ImpactSection = () => {
       {/* Robot Character - Positioned on the right side */}
       <div className="robot-container absolute right-8 lg:right-16 bottom-0 lg:bottom-8">
         <img 
-          src="/src/assets/robot.png" // Replace with your robot image path
+          src="/robot.png" // Replace with your robot image path
           alt="AI Robot Assistant" 
           className="w-64 lg:w-[40rem] h-auto object-contain drop-shadow-2xl"
         />
